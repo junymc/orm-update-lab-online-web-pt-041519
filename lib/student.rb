@@ -26,7 +26,6 @@ class Student
    SQL
 
    DB[:conn].execute(sql)
-  # DB[:conn].execute("DROP TABLE IF EXISTS students")
  end
 
  def save
