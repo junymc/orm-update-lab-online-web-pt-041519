@@ -52,7 +52,7 @@ class Student
    student.id = row[0]
    student.name = row[1]
    student.grade = row[2]
-   self.new
+   self.new(id, name, grade)
  end
 
  def update
